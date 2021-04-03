@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/michalpzarzycki/SimpleApp/issues"
   },
-  "homepage": "https://github.com/michalpzarzycki/SimpleApp#readme"
+  "homepage": "https://github.com/michalpzarzycki/SimpleApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
