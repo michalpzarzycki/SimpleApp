@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/michalpzarzycki/SimpleApp#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-validator": "^6.10.0",
+    "mongoose": "^5.12.3",
     "pug": "^3.0.2"
   },
   "devDependencies": {
