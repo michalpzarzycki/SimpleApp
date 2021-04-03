@@ -1,6 +1,12 @@
 const express = require('express');
+const path = require("path");
+const auth = require("http-auth")
 const mongoose = require('mongoose')
 const { body, validationResult } = require('express-validator');
+
+const basic = auth.basic({
+    file: path.join(__dirname, '../users.htpasswd')
+})
 
 const router = express.Router();
 const Registration = mongoose.model('Registration')
